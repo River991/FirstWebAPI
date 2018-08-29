@@ -19,19 +19,65 @@ namespace CintyInfo.API
                 {
                     Id=1,
                     Name="London",
-                    Description = "Capital city of the UK"
+                    Description = "Capital city of the UK",
+                    PointsOfInterests = new List<PointOfInterest>()
+                    {
+                        new PointOfInterest()
+                        {
+                            Id=1,
+                            Name="Big Ben",
+                            Description = "Clock at the Houses of Parliament"
+                        },
+                        new PointOfInterest()
+                        {
+                            Id = 2,
+                            Name = "Buckingham Palace",
+                            Description = "The Queen's London Palace"
+                        }
+                    }
                 },
                 new CityDto()
                 {
                     Id=2,
                     Name="New York City",
-                    Description = "The Big Apple"
+                    Description = "The Big Apple",
+                    PointsOfInterests = new List<PointOfInterest>()
+                    {
+                    new PointOfInterest()
+                    {
+                    Id=1,
+                    Name="Empire State Building",
+                    Description = "Once the tallest building in the world"
+                },
+                new PointOfInterest()
+                {
+                    Id = 2,
+                    Name = "Statue of Liberty",
+                    Description = "Statue in New York Harbour"
+                }
+            }
                 },
                 new CityDto()
                 {
                     Id=3,
                     Name="Bruges",
-                    Description = "Good Beer and Bikes"
+                    Description = "Good Beer and Bikes",
+                    PointsOfInterests = new List<PointOfInterest>()
+                    {
+                        new PointOfInterest()
+                        {
+                            Id=1,
+                            Name="The Bellfry",
+                            Description = "Old Clock tower"
+                        },
+                        new PointOfInterest()
+                        {
+                            Id = 2,
+                            Name = "Beer Museum",
+                            Description = "Museum Dedicated to Beer"
+                        }
+                    }
+
                 }
             };
         }

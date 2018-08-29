@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CintyInfo.API", "CintyInfo.API\CintyInfo.API.csproj", "{03AC40FE-3CA5-4EDA-89FE-EABCD5209911}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CityInfo.API", "CintyInfo.API\CityInfo.API.csproj", "{03AC40FE-3CA5-4EDA-89FE-EABCD5209911}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
