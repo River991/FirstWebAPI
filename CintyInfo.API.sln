@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CintyInfo.API", "CintyInfo.API\CintyInfo.API.csproj", "{03AC40FE-3CA5-4EDA-89FE-EABCD5209911}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03AC40FE-3CA5-4EDA-89FE-EABCD5209911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03AC40FE-3CA5-4EDA-89FE-EABCD5209911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03AC40FE-3CA5-4EDA-89FE-EABCD5209911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03AC40FE-3CA5-4EDA-89FE-EABCD5209911}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A009670-62D6-4E08-A8D6-0179C80CE840}
+	EndGlobalSection
+EndGlobal
